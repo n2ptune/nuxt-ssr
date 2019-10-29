@@ -1,72 +1,27 @@
 <template>
-  <div class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        n2ptune-test-ssr
-      </h1>
-      <h2 class="subtitle">
-        Test ssr with Nuxt
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
-    </div>
-  </div>
+  <a-layout>
+    <a-layout-content>
+      <a-breadcrumb :style="{ margin: '16px 25px' }">
+        <a-breadcrumb-item>Home</a-breadcrumb-item>
+        <a-breadcrumb-item>List</a-breadcrumb-item>
+        <a-breadcrumb-item>App</a-breadcrumb-item>
+      </a-breadcrumb>
+      <a-layout :style="{ margin: '10px 30px', backgroundColor: '#fff' }" hasSider="true">
+        <default-sider></default-sider>
+        <a-layout-content :style="{ padding: '24px 24px', minHeight: '280px' }">
+          Content
+        </a-layout-content>
+      </a-layout>
+    </a-layout-content>
+  </a-layout>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+import DefaultSider from '@/components/layout/DefaultSider.vue'
 
 export default {
   components: {
-    Logo
+    DefaultSider
   }
 }
 </script>
-
-<style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
-</style>
