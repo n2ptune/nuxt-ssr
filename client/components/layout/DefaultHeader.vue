@@ -1,13 +1,13 @@
 <template>
-  <a-layout-header>
+  <a-layout-sider :style="{ height: '48px' }">
     <a-menu
       theme="dark"
-      mode="horizontal"
-      :style="{ lineHeight: '64px' }"
+      mode="vertical"
+      :style="{ lineHeight: '48px' }"
     >
       <a-menu-item key="1">menu item</a-menu-item>
       <a-menu-item key="2">menu item</a-menu-item>
       <a-menu-item key="3">menu item</a-menu-item>
     </a-menu>
-  </a-layout-header>
+  </a-layout-sider>
 </template>
