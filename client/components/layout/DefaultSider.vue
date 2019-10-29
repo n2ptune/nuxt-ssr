@@ -3,7 +3,7 @@
     <a-menu
       theme="dark"
       mode="inline"
-      :style="{ height: '100%' }"
+      :style="{ height: '100vh', position: 'fixed', width: '200px' }"
     >
       <a-sub-menu key="title1">
         <span slot="title">

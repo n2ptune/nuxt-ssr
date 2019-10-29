@@ -1,13 +1,14 @@
 <template>
-  <a-layout-sider :style="{ height: '48px' }">
-    <a-menu
-      theme="dark"
-      mode="vertical"
-      :style="{ lineHeight: '48px' }"
+  <a-row align="middle">
+    <a-layout-header
+      class="header"
+      style="background-color: #fff"
     >
-      <a-menu-item key="1">menu item</a-menu-item>
-      <a-menu-item key="2">menu item</a-menu-item>
-      <a-menu-item key="3">menu item</a-menu-item>
-    </a-menu>
-  </a-layout-sider>
+      <div :style="{ textAlign: 'center' }">header</div>
+    </a-layout-header>
+  </a-row>
 </template>
+
+<style scoped>
+
+</style>
