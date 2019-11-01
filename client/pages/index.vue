@@ -1,11 +1,11 @@
 <template>
-  <a-layout>
-    <a-row>
-      <a-layout-content class="content">
-        Content
-      </a-layout-content>
-    </a-row>
-  </a-layout>
+  <a-layout-content
+    :style="{ padding: '25px' }"
+  >
+    <div class="content-header typo-text-500">
+      Nuxt + Firebase + Ant Design Vue
+    </div>
+  </a-layout-content>
 </template>
 
 <script>
@@ -19,8 +19,7 @@ export default {
 </script>
 
 <style scoped>
-.content {
-  margin: 25px;
-  min-height: 100vh;
-}
+  .content-header {
+    text-align: center;
+  }
 </style>

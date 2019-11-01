@@ -1,0 +1,49 @@
+/* margin */
+.mx-auto {
+  margin-right: auto;
+  margin-left: auto;
+}
+.ml-auto {
+  margin-left: auto;
+}
+.mr-auto {
+  margin-right: auto;
+}
+/* float */
+.float-r {
+  float: right;
+}
+.float-l {
+  float: left;
+}
+.clear-b {
+  clear: both;
+}
+/* typography */
+.typo-text-900 {
+  font-size: 5rem;
+}
+.typo-text-800 {
+  font-size: 4.5rem;
+}
+.typo-text-700 {
+  font-size: 4rem;
+}
+.typo-text-600 {
+  font-size: 3rem;
+}
+.typo-text-500 {
+  font-size: 2rem;
+}
+.typo-text-400 {
+  font-size: 1.7rem;
+}
+.typo-text-300 {
+  font-size: 1.4rem;
+}
+.typo-text-200 {
+  font-size: 0.9rem;
+}
+.typo-text-100 {
+  font-size: 0.5rem;
+}
