@@ -2,9 +2,12 @@
   <a-layout-content
     :style="{ padding: '25px' }"
   >
-    <div class="content-header typo-text-500">
+    <!-- <div class="content-header typo-text-500">
       Nuxt + Firebase + Ant Design Vue
-    </div>
+    </div> -->
+    <a-card>
+      <a-skeleton active avatar :paragraph="{ rows: 4}"></a-skeleton>
+    </a-card>
   </a-layout-content>
 </template>
 
