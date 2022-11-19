@@ -16,7 +16,7 @@
     "ant-design-vue": "^1.4.3",
     "cross-env": "^5.2.0",
     "express": "^4.16.4",
-    "nuxt": "^2.10.2"
+    "nuxt": "^2.15.8"
   },
   "devDependencies": {
     "babel-plugin-import": "^1.12.2",
